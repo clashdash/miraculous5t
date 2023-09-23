@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    
+        body {
+            background-color: red; /* Fundo vermelho */
+            background-image: url('data:image/jpeg;base64,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'); /* Pintinhas pretas */
+            background-repeat: repeat;
+        }
+
+        .video-container {
+          width: 480px; /* Largura do container do vídeo */
+            height: 270px; /* Altura do container do vídeo */
+            margin: 10px; /* Espaço entre os vídeos */
+            float: left; /* Alinhar os vídeos horizontalmente */
+        }
+        
+        .video-container {
+            width: 480px; /* Largura do container do vídeo */
+            height: 350px; /* Altura do container do vídeo */
+            margin: 20px; /* Espaço entre os containers */
+            float: left; /* Alinhar os containers horizontalmente */
+            background-color: white; /* Fundo branco para o container */
+            border: 1px solid black; /* Borda preta ao redor do container */
+            padding: 10px; /* Espaçamento interno dentro do container */
+          }
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+        .video-title {
+            margin-top: 0%; /* Espaço entre o player e o título */
+            font-size: 22px; /* Tamanho da fonte do título */
+            color: rgb(255, 255, 255); /* Cor do texto do título */
+        }
+       
+    </style>
+</head>
+<body>
+ 
+    </style>
+</head>
+<body>
+    <div class="video-container">
+      <iframe src="https://drive.google.com/file/d/1EVkTQtwdH9YX2Vn8iCsvA3MUti5037S_/preview" width="640" height="480" allow="autoplay"></iframe>
+      <div class="video-title">miraculou ep1</div>
+    </div>
+
+    <div class="video-container">
+      <iframe src="https://drive.google.com/file/d/1WmjRcxzLLj8d-gtKE3ivk2nRPuayPLFw/preview" width="640" height="480" allow="autoplay"></iframe>
+      <div class="video-title">miraculou ep2</div>
+    </div>
+    <div class="video-container">
+      <iframe src="https://drive.google.com/file/d/1nv0dJZxOECesuZtun9XWVa68kJRHsazC/preview"" width="640" height="480" allow="autoplay"></iframe>
+      <div class="video-title">miraculou ep3</div>
+    </div>
+    <div class="video-container">
+      <iframe src="https://drive.google.com/file/d/1o0dv-xneVxUFV0S1JgpuTBRPRCIoxx3B/preview" width="640" height="480" allow="autoplay"></iframe>
+      <div class="video-title">miraculou ep4</div>
+    </div>
+   <div>
+   <div class="video-container">
+    <iframe src="https://drive.google.com/file/d/1PWpltZzq0_GrUjuVc0XVRmdSC32TLN8z/preview" width="640" height="480" allow="autoplay"></iframe>
+   <div class="video-title">miraculous ep5</div>
+   </div>
+   <div class="video-container">
+    <iframe src="https://drive.google.com/file/d/1hJETnYgjqDjJyYljFb33O1v63c98aCLf/preview" width="640" height="480" allow="autoplay"></iframe>
+   <div class="video-title">miraculous ep6</div>
+   </div>
+   <div class="video-container">
+    <iframe src="https://drive.google.com/file/d/166iF2tB_q-nYvnl3AWIjeMdkkR30O5RS/preview" width="640" height="480" allow="autoplay"></iframe>
+   <div class="video-title">miraculous ep7</div>
+   </div>
+   <div class="video-container">
+    <iframe src="https://drive.google.com/file/d/1y1pEaH42_vak-yhEiPd9RBd-xcqK35py/preview" width="640" height="480" allow="autoplay"></iframe>
+   <div class="video-title">miraculous ep8</div>
+   </div>
+   <div class="video-container">
+    <iframe src="https://drive.google.com/file/d/1ADs3ATN-OPgAFW6lCAnXZ2LGzRk99fu1/preview" width="640" height="480" allow="autoplay"></iframe>
+   <div class="video-title">miraculous ep9</div>
+   </div>
+   <div class="video-container">
+    <iframe src="https://drive.google.com/file/d/12qlzSw0Tl2GC8VKZPlGem8OTopLfIcdN/preview" width="640" height="480" allow="autoplay"></iframe>
+   <div class="video-title">miraculous ep10</div>
+   </div>
+   <div class="video-container">
+    <iframe src="https://drive.google.com/file/d/1Kcl-D7YRezK4lIanrJYH7N8RFwQJ9cn9/preview" width="640" height="480" allow="autoplay"></iframe>
+   <div class="video-title">miraculous ep11</div>
+   </div>
+   <div class="video-container">
+    <iframe src="https://drive.google.com/file/d/17UtMM9wIEXkOfr_ts4MdHe02PRIZNdJ-/preview" width="640" height="480" allow="autoplay"></iframe>
+   <div class="video-title">miraculous ep12</div>
+   </div>
+   <div class="video-container">
+    <iframe src="https://drive.google.com/file/d/1Lv2Wf_0QxZ0PwFH-bxKGrE0BPUJXkvdf/preview" width="640" height="480" allow="autoplay"></iframe>
+   <div class="video-title">miraculous ep13</div>
+   </div>
+   <div class="video-container">
+    <iframe src="https://drive.google.com/file/d/1oHHs7GAcoiSTxiWNasTjB7ieebszP-bq/preview" width="640" height="480" allow="autoplay"></iframe>
+   <div class="video-title">miraculous ep14</div>
+   </div>
+    <!-- Adicione mais incorporações de vídeo conforme necessário -->
+</body>
+</html>
